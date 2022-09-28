@@ -1,5 +1,5 @@
 {
-  "name": "react-router-dom-ft-xvii",
+  "name": "todolistwithhapi",
   "version": "1.0.0",
   "description": "- __tests__ - public     - index.html - src     - App.js     - index.js - .babelrc - .gitignore - package.json - webpack.config.js",
   "main": "webpack.config.js",
@@ -47,6 +47,7 @@
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
     "react-router-dom": "^6.4.1"
   }
 }

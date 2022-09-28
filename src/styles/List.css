@@ -1,0 +1,31 @@
+.Item {
+    margin: auto;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 482px;
+
+    background: #fdfdfd;
+    padding: 0 10px 0 16px;
+    height: 60px;
+    text-align: left;
+    background: #f7f7f7;
+}
+
+p {
+    margin: 0px;
+}
+
+.buttonDeleteTask {
+    border: none;
+    background: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Item p {
+    color: #333333;
+    font-weight: 400;
+    font-size: 24px;
+}

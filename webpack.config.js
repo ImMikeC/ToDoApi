@@ -6,7 +6,7 @@ const path = require('path');
 
 
 module.exports = {
-    entry: path.resolve(__dirname, './src/index.js'),
+    entry: path.resolve(__dirname, './src/js/index.js'),
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: '[name].bundle.js',
@@ -27,7 +27,6 @@ module.exports = {
             },
             {
                 test: /\.(css|scss)$/,
-                exclude: /node_modules/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
             },
         ]
